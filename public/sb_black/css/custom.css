@@ -1,0 +1,63 @@
+.esconde {
+   display:none; 
+}
+
+.exibe {
+    display:block; 
+}
+
+.exibe_in {
+  display:inline; 
+}
+
+.pointer {
+  cursor: pointer;  
+}
+
+.color_label {
+  color:  #6f14f2  !important;  
+}
+
+.color_green {
+  color:  #1d5b09  !important;  
+}
+
+.color_login {
+  color:  cornflowerblue  !important;  
+}
+
+.color_red {
+  color:  red  !important;  
+}
+
+.dt-centro {
+  text-align:center !important;  
+}
+
+.dt-direita {
+  text-align:right !important;  
+}
+
+.dt-esquerda {
+  text-align:left !important;  
+}
+
+.imagem_profile{
+  width: auto;
+  height: 250px;
+}
+
+.fonte_size{
+  font-size: 16px;
+}
+
+@media (max-width: 500px) {
+  .imagem_profile{
+    width: 260px;
+    height: auto;
+  }
+  .fonte_size{
+    font-size: 13px;
+  }
+}
+
