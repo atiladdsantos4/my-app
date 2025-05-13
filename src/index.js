@@ -150,7 +150,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
    <BrowserRouter>
       <Routes>  
-          <Route path='/' element={<Login/>}/> 
+          <Route path='my-app/' element={<Login/>}/> 
           <Route path='/main' element={<ContentNovo view="main"/>}/> 
           <Route exact path='/tabela' element={<ContentNovo view="tabelas"/>}/> 
           <Route path='/charts' element={<ContentNovo view="graficos"/>}/> 
